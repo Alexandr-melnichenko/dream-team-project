@@ -1,0 +1,387 @@
+.work-together{
+  padding: 80px 20px;
+  max-width: 320px;
+  margin: 0 auto;
+  position: relative;
+}
+.work-together-title{
+  font-family: "Impact", sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.23;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #00b068;
+  margin-bottom: 40px;
+
+    & .title-span{
+      color: #292929;
+    }
+}
+
+.work-together-paragraph{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #292929;
+}
+
+.work-together-contacts{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+.work-together-list{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+.work-together-li{
+  height: 24px;
+  
+}
+
+.work-together-icon{
+  margin-right: 16px;
+
+}
+
+.work-together-links{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+  text-align: center;
+  vertical-align: top;
+}
+
+.work-together-links:hover,
+.work-together-links:active{
+  color: #00b068;
+}
+
+.work-together-form{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.work-together-input{
+  border-radius: 8px;
+  border: none;
+  padding: 16px;
+  /* width: 320px; */
+  height: 48px;
+  background-color: #e4e5e6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #292929;
+}
+
+*,
+a:focus {
+outline: none !important;
+}
+
+.work-together-form input:hover,
+.work-together-form input:active{
+  border: 1px solid #00b068;
+}
+
+.work-together-textarea{
+  resize: none;
+  border: 0;
+  border-color: #00b068;
+  border-radius: 8px;
+  padding: 16px;
+  /* width: 288px; */
+  height: 128px;
+  background-color: #e4e5e6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #292929;
+}
+
+.work-together-form textarea:hover,
+.work-together-form textarea:active{
+  border: 1px solid #00b068;
+}
+
+
+.work-together-button{
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  /* width: 320px; */
+  height: 48px;
+  background-color: #00b068;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.work-together-button:hover,
+.work-together-button:active{
+background-color: #009156;
+}
+
+.input-icon{
+  position: absolute;
+  right: 17px;
+  top: 28px;
+
+  &.is-close-input-icon {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+}
+
+.input-signature{
+position: absolute;
+font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-size: 12px;
+line-height: 1.33333;
+letter-spacing: 0.04em;
+color: #e74a3b;
+  left: 0px;
+  top: 80px;
+
+
+  &.is-close-input-signature {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+}
+
+
+/*-------------MODAL------*/
+button {
+  display: block;
+}
+
+.work-together-modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #505050b0;
+
+  &.is-close-modal {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+.modal-window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #e4e5e6;
+  border-radius: 16px;
+  padding: 48px 32px;
+  width: 256px;
+  height: 232px;
+  background-color: #f0f0f0;
+}
+
+.modal-window-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: #f0f0f0;
+  border: none;
+}
+
+.modal-window-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #00b068;
+  margin-bottom: 16px;
+}
+
+.modal-window-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #292929;
+}
+
+  /*-------END MODAL--------*/
+
+@media screen and (min-width: 768px) {
+.work-together{
+  padding: 124px 32px;
+  max-width: 700px;
+  margin: 0 auto;
+  background-image: url(../img/decor-1x.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .work-together {
+    background-image: url(../img/decor-2x.png);
+  }
+}
+
+.work-together-title{
+  font-weight: 400;
+  font-size: 108px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #00b068;
+  margin-bottom: 60px;
+}
+
+.work-together-paragraph{
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #292929;
+  width: 518px;
+  margin-bottom: 32px;
+}
+
+.work-together-contacts {
+  margin-bottom: 60px;
+}
+
+.work-together-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.work-together-input{
+  height: 48px;
+}
+
+.input-icon {
+  right: 17px;
+  top: 28px;
+}
+
+/*-------------MODAL------*/
+.work-together-button{
+  width: 221px;
+  height: 48px;
+
+}
+
+  .modal-window {
+    padding: 64px;
+    width: 364px;
+    height: 152px;
+  }
+
+/*-------END MODAL--------*/
+}
+
+
+@media screen and (min-width: 1280px) {
+  .work-together {
+    padding: 164px 32px;
+    max-width: 1216px;
+    margin: 0 auto;
+    }
+  
+  .work-together-title {
+    margin-bottom: 80px;
+    width: 515px;
+    height: 248px;
+    }
+  
+  .work-together-paragraph {
+    margin-bottom: 0px;
+    width: 488px;
+    }
+
+  .work-together-contacts {
+    width: 488px;
+    height: 288px;
+    flex-direction: column;
+    gap: 120px;
+    margin: 0;
+  }
+  .work-together-div{
+    display: flex;
+    flex-direction: row;
+    gap: 136px;
+  }
+
+  .work-together-list {
+    flex-direction: column;
+  }
+
+  .work-together-form{
+    width: 592px;
+    height: 288px;
+  }
+
+
+  .work-together-button{
+    max-width: 173px;
+    height: 48px;
+    padding: 12px 12px;
+  }
+
+  .input-icon {
+    right: 17px;
+    top: 18px;
+  }
+  
+  .input-signature {
+    left: 0px;
+    top: 62px;
+  }
+
+    /*-------------MODAL------*/
+    .work-together-button {
+      width: 221px;
+      height: 48px;
+    }
+  
+    .modal-window {
+      padding: 64px;
+      width: 364px;
+      height: 152px;
+    }
+  
+    /*-------END MODAL--------*/
+}
