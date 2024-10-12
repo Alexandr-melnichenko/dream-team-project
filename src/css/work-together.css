@@ -343,6 +343,7 @@ button {
     flex-direction: column;
     gap: 120px;
     margin: 0;
+    
   }
   .work-together-div{
     display: flex;
