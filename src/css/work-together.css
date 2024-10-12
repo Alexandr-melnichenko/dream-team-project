@@ -1,9 +1,12 @@
 .work-together{
-  padding: 80px 20px;
+  padding: 40px 20px;
   max-width: 320px;
   margin: 0 auto;
   position: relative;
+  background-color: #F0F0F0;
 }
+
+
 .work-together-title{
   font-family: "Impact", sans-serif;
   font-weight: 400;
@@ -247,7 +250,7 @@ button {
 
 @media screen and (min-width: 768px) {
 .work-together{
-  padding: 124px 32px;
+  padding: 62px 32px;
   max-width: 700px;
   margin: 0 auto;
   background-image: url(../img/decor-1x.png);
@@ -318,7 +321,7 @@ button {
 
 @media screen and (min-width: 1280px) {
   .work-together {
-    padding: 164px 32px;
+    padding: 82px 32px;
     max-width: 1216px;
     margin: 0 auto;
     }

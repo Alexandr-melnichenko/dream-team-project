@@ -73,5 +73,19 @@
 <path fill="#00b068" style="fill: var(--color1, #00b068)" d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16v-32zM16 32l1696 0v-32l-1696-0v32z"></path>
 </symbol>
 
+<symbol id="icon-faq-up-arrow" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 20l-8-8-8 8"></path>
+</symbol>
+
+<symbol id="icon-reviews-left-arrow" viewBox="0 0 32 32">
+<path fill="none" stroke="#e4e5e6" style="stroke: var(--color2, #e4e5e6)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M26.667 16h-21.333"></path>
+<path fill="none" stroke="#e4e5e6" style="stroke: var(--color2, #e4e5e6)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M13.333 24l-8-8 8-8"></path>
+</symbol>
+
+<symbol id="icon-ep_success-filled" viewBox="0 0 32 32">
+<path fill="#00b068" style="fill: var(--color1, #00b068)" d="M16 2c7.732 0 14 6.268 14 14s-6.268 14-14 14v0c-7.732 0-14-6.268-14-14s6.268-14 14-14v0zM14.256 18.762l-3.11-3.112c-0.217-0.217-0.517-0.352-0.849-0.352-0.663 0-1.201 0.538-1.201 1.201 0 0.332 0.134 0.632 0.352 0.849l3.96 3.96c0.217 0.218 0.517 0.354 0.849 0.354s0.632-0.135 0.849-0.354l8.2-8.202c0.222-0.218 0.359-0.521 0.359-0.856 0-0.663-0.537-1.2-1.2-1.2-0.335 0-0.637 0.137-0.855 0.358l-7.354 7.354z"></path>
+</symbol>
+
+
   </defs>
   </svg>

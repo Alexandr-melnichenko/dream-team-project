@@ -13,31 +13,35 @@ padding: 62px 32px;
   }
 
   h1 {
-    font-family: Impact;
+    font-family: 'Impact';
     font-size: 136px;
     letter-spacing: 1.8px;
     line-height: 156px;
+    font-weight: 400;
   }
 
 h2 {
-  font-family: Impact;
+  font-family: 'Impact';
 font-size: 108px;
 letter-spacing: 1.8px;
 line-height: 124px;
+font-weight: 400;
 }
 
 h3 {
-  font-family: Poppins Medium;
+  font-family: 'Poppins';
 font-size: 36px;
 letter-spacing: 0.5px;
 line-height: 48px;
+font-weight: 500;
 }
 
 caption {
-  font-family: Poppins Regular;
+  font-family: 'Poppins';
 font-size: 20px;
 letter-spacing: 0.5px;
 line-height: 32px;
+font-weight: 400;
 }
 
 }
