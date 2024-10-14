@@ -30,10 +30,6 @@
 <path fill="none" stroke="#00b068" style="stroke: var(--color1, #00b068)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M26.667 28c0-1.861 0-2.791-0.229-3.548-0.529-1.708-1.848-3.026-3.518-3.546l-0.038-0.010c-0.757-0.229-1.687-0.229-3.548-0.229h-6.667c-1.861 0-2.791 0-3.548 0.229-1.708 0.529-3.027 1.848-3.546 3.518l-0.010 0.038c-0.229 0.757-0.229 1.687-0.229 3.548M16 16c3.314 0 6-2.686 6-6s-2.686-6-6-6v0c-3.314 0-6 2.686-6 6s2.686 6 6 6v0z"></path>
 </symbol>
 
-<symbol id="icon-faq-bottom-arrow" viewBox="0 0 32 32">
-<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.5714" d="M29.714 8l-13.714 13.714-13.714-13.714"></path>
-</symbol>
-
 <symbol id="icon-my-projects-arrow" viewBox="0 0 32 32">
 <path fill="none" stroke="#00b068" style="stroke: var(--color1, #00b068)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.5556" d="M3.111 28.889l25.778-25.778M28.889 3.111h-24M28.889 3.111v24"></path>
 </symbol>
@@ -74,9 +70,6 @@
 <path fill="#00b068" style="fill: var(--color1, #00b068)" d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16v-32zM16 32l1696 0v-32l-1696-0v32z"></path>
 </symbol>
 
-<symbol id="icon-faq-up-arrow" viewBox="0 0 32 32">
-<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 20l-8-8-8 8"></path>
-</symbol>
 
 <symbol id="icon-reviews-left-arrow" viewBox="0 0 32 32">
 <path fill="none" stroke="#e4e5e6" style="stroke: var(--color2, #e4e5e6)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M26.667 16h-21.333"></path>
@@ -99,8 +92,5 @@
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="7.1111" d="M46.222 28.444l-21.333-21.333-21.333 21.333"></path>
 </symbol>
 
-<symbol id="icon-faq-down-arrow" viewBox="0 0 32 32">
-<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M23.5 12.25l-7.5 7.5-7.5-7.5"></path>
-</symbol>
   </defs>
   </svg>
