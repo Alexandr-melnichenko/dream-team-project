@@ -49,12 +49,16 @@
   margin: 0;
   border: 0;
   border-bottom: 1px solid #e4e5e6;
+  color: var(--text-color)
 }
 
 
 
 .faq-item.is-active {
     background-color: #bcdfd1;
+} 
+.dark .faq-item.is-active {
+  background-color: #204136;
 } 
 .faq-icon-up {
   width: 32px;
@@ -69,12 +73,14 @@ width: 32px;
 position: absolute;
 right: 24px;
 top: 41px;
-stroke:#292929;
+/* stroke:#292929; */
+stroke: var(--text-color);
 fill: transparent;
 
 }
 .faq-item.is-active .faq-icon-up{
-  stroke: #292929;
+  /* stroke: #292929; */
+  stroke: var(--text-color);
 } 
 .faq-item.is-active .faq-icon-down {
   fill: transparent;
