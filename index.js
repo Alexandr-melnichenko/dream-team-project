@@ -2,27 +2,18 @@ import{i as E,a as M,A as P,r as N,S as A,V as l}from"./assets/vendor-CV0iqfMf.j
         <div class="each-project">
         <div class="image-tech">
         <picture>
-
             <source media="(min-width: 1280px)" 
                     srcset="${t.imgDesktop} 1x, ${t.imgDesktopRetina} 2x">
-
             <source media="(min-width: 768px) and (max-width: 1279px)" 
                     srcset="${t.imgTablet} 1x, ${t.imgTabletRetina} 2x">
-
             <source media="(max-width: 767px)" 
                     srcset="${t.imgMobile} 1x, ${t.imgMobileRetina} 2x">
-
-
-
-
-  
             <img src="${t.imgDesktop}" alt="${t.title}" class="project-image">
         </picture>
-
                 <p class="tech-text">${t.technologies}</p>
                 </div>
-                            <div class="project-info">
-                                <h3 class="pr-title-text">${t.title}</h3>
+                <div class="project-info">
+                <h3 class="pr-title-text">${t.title}</h3>
                 <button class="pr-btn">
                 <div class="btn">
                 <a href="${t.link}" target="_blank" class="btn-text">Visit</a>
