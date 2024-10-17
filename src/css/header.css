@@ -69,8 +69,12 @@ body.light {
   --text-grey-color: var(--text-grey-light);
   --hover-grey-color: var(--hover-grey-light);
 }
+
+.section-topline {
+  padding: 0;
+}
 .section .header-container {
-  /* padding: 20px 20px; */
+  padding: 20px 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -236,7 +240,7 @@ padding-bottom: 20px; */
 }
   .mobile-menu-header .mobile-logo {
     display: flex;
-    padding: 24px 20px;
+    padding: 24px 24px;
     font-size: 24px;
     letter-spacing: 0.06em;
   }
@@ -337,6 +341,9 @@ padding-bottom: 20px; */
   top: -3%;
   bottom: 2%;
   left: -2%;
+}
+.section-topline {
+  padding: 0px;
 }
 .section .header-container {
  min-width: 768px;

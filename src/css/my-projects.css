@@ -106,14 +106,13 @@ height: 184px;
         display: flex;
         align-items: center; 
         justify-content: center;
-        width: 125px;
-        height: 48px;
         border-radius: 8px;
         border: none;
     background: var(--input-color);
     margin-left: auto;
     padding: 12px 24px;
     cursor: pointer;
+    gap: 12px
     }
     
     .pr-btn:hover {

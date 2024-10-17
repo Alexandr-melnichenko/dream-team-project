@@ -15,12 +15,12 @@ section {
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 32px;
+padding: 0 32px;
   }
 
   section {
-    padding: 62px 0;
-  }
+  padding: 62px 0;
+}
 
   h1 {
     font-family: 'Impact';
@@ -30,28 +30,32 @@ section {
     font-weight: 400;
   }
 
-  h2 {
-    font-family: 'Impact';
-    font-size: 108px;
-    letter-spacing: 1.8px;
-    line-height: 124px;
-    font-weight: 400;
-  }
+h2 {
+  font-family: 'Impact';
+font-size: 108px;
+letter-spacing: 1.8px;
+line-height: 124px;
+font-weight: 400;
+}
 
-  h3 {
-    font-family: 'Poppins';
-    font-size: 36px;
-    letter-spacing: 0.5px;
-    line-height: 48px;
-  }
+h3 {
+  font-family: 'Poppins';
+font-size: 36px;
+letter-spacing: 0.5px;
+line-height: 48px;
 
-  caption {
-    font-family: 'Poppins';
-    font-size: 20px;
-    letter-spacing: 0.5px;
-    line-height: 32px;
-    font-weight: 400;
-  }
+} 
+
+
+
+caption {
+  font-family: 'Poppins';
+font-size: 20px;
+letter-spacing: 0.5px;
+line-height: 32px;
+font-weight: 400;
+}
+
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
@@ -61,6 +65,7 @@ section {
   }
 
   section {
-    padding: 82px 0;
-  }
+  padding: 82px 0;
+}
+  
 }
