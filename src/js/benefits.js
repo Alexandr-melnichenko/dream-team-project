@@ -41,3 +41,24 @@ const svgCallback = entries => {
 
 const svg = new IntersectionObserver(svgCallback, options);
 svg.observe(svgList);
+
+/*================ SCROLL TO TOP  ============================== */
+
+window.addEventListener('scroll', function () {
+  const scrollButton = document.querySelector('.scroll-to-top');
+  const scrollPosition = window.scrollY + this.window.innerHeight;
+  const allDocumentHeight = this.document.documentElement.scrollHeight;
+
+  if (allDocumentHeight - scrollPosition <= 3000) {
+    scrollButton.classList.add('visible-scroll');
+  } else {
+    scrollButton.classList.remove('visible-scroll');
+  }
+});
+
+document.querySelector('.scroll-to-top').addEventListener('click', function () {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+});
