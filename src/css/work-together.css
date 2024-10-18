@@ -108,10 +108,10 @@
   background-color: var(--input-color);
 }
 
-*,
+/* *,
 a:focus {
   outline: none !important;
-}
+} */
 
 /* .work-together-form input:hover,
 .work-together-form input:active {
