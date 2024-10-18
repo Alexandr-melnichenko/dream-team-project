@@ -121,6 +121,10 @@
     height: 810px;
   }
 
+section.benefits {
+  padding-top: 24px;
+}
+
   .benefits-list-header {
     margin: 0;
   }
@@ -157,3 +161,4 @@
 .visible-scroll {
   display: block;
 }
+

@@ -74,13 +74,18 @@ margin-bottom: 40px;
     margin-bottom: 12px;
    }
 
-.about-me-section {
+.about-me-section:not(:last-child) {
+    
     margin-bottom: 40px;
 }
 
+
+
 @media only screen and (min-width: 768px) {
     
-
+    .about-me-section:not(:last-child) {
+        margin-bottom: 0px;
+    }
    
 
     .about-me-wrapper  {
@@ -139,7 +144,7 @@ margin-bottom: 40px;
    }
 
    .about-me-section {
-    margin-bottom: unset;
+    margin-bottom: 0;
 }
 
    .about-me-title {
@@ -252,11 +257,11 @@ margin-bottom: 40px;
 
         .about-me-section {
             width: 384px;
-            height: 280px;
+            height: auto;
            }
 
            .about-me-section {
-            margin-bottom: unset;
+            margin-bottom: 0;
         }
 
         .about-me-section-flex {
@@ -281,5 +286,7 @@ margin-bottom: 40px;
            .about-me-item:not(:last-child) {
             margin-bottom: 16px;
            }
-        
+
+           
+
     }

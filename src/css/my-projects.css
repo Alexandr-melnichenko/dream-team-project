@@ -115,7 +115,7 @@ height: 184px;
     gap: 12px
     }
     
-    .pr-btn:hover {
+    .pr-btn:hover, .pr-btn:focus {
     background: var(--hover-grey-color);
     }
     
@@ -165,7 +165,7 @@ height: 184px;
         background-color: transparent;
     }
 
-    .load-btn:hover {
+    .load-btn:hover, .load-btn:focus{
         color: var(--text-green-color);
     }
 
@@ -255,5 +255,9 @@ gap: 16px;
             gap: 120px;
         }
     
+section#projects {
+    padding-bottom: 24px;
+}
+
         
     }

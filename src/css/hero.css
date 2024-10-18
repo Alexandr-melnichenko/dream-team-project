@@ -105,6 +105,9 @@
   width: 100vw;
   padding: 0;
   width: 100vw;
+
+  margin-bottom: 80px;
+
   margin: 0 auto;
 }
 
@@ -118,9 +121,8 @@
   justify-content: center;
 }
 
-.hero-link:hover,
-.hero-link:focus {
-  color: var(--text-green-color);
+.hero-social-list a:hover {
+  color: #14c57c;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -249,5 +251,3 @@
     opacity: 1;
   }
 }
-
-/*=================  ANIMATION ====================*/

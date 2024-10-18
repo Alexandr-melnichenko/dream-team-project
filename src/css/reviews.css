@@ -91,7 +91,9 @@
 }
 .prev-button svg,
 .next-button svg {
-    stroke: var(--text-color);    
+   
+    stroke: var(--text-color);
+    fill: none;    
 }
 
 .slider-button[disabled] {
@@ -103,9 +105,10 @@
     fill: none;
     stroke: var(--input-color);
 }
-.slider-button:hover {
+.slider-button:hover, :focus {
     color: #BBBBBB
 }
+
 
 @media screen and (min-width: 768px) {
     

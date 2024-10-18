@@ -1,21 +1,14 @@
 footer {
-  width: 100%;
-  margin: 0 auto;
+  min-width: 100vw;
   border-top: 1px solid #E4E5E6;
-  padding-top: 40px;
+  padding-bottom: 24px;
 }
 
 
 .footer-block {
-  padding-left: 20px;
-  padding-right: 20px;
   padding-top: 40px;
-  /* margin-bottom: 24px; */
 }
 
-/* .container {
-  padding: 40px 20px 24px;
-} */
 
 .footer-logo-link {
   font-family: "Impact", sans-serif;
@@ -74,6 +67,8 @@ footer {
 .footer-bottom {
   display: block;
   text-align: center;
+  margin: auto;
+    width: fit-content;
 }
 
 .social-links-list a:hover {
@@ -87,18 +82,18 @@ footer {
     gap: 40px;
   }
 
-  .footer-block {
-    padding-left: 32px;
-    padding-right: 32px;
+  .footer-bottom {
+    display: block;
+    text-align: right;
+    width: 100%;
   }
+
 
   .footer-bottom-par {
     width: 100%;
     text-align: end;
   }
-  /* .container {
-    padding: 40px 32px 24px;
-  } */
+  
 }
 
 @media screen and (min-width:1280px) {
