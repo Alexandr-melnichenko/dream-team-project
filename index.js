@@ -2,7 +2,7 @@ import{i as q,a as x,A as T,r as C,S as F,V as r}from"./assets/vendor-CV0iqfMf.j
         <li class="review-item swiper-slide">
             <p class="review-text">${o}</p>
             <div class="person-box">
-                <img class="person-icon" src="${s||"path/to/default-image.png"}" alt="${n}">
+                <img class="person-icon" src="${s||"./img/default-image.png"}" alt="${n}">
                 <p class="person-text">${n}</p>
             </div>
         </li>
